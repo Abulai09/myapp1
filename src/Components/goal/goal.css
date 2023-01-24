@@ -1,0 +1,29 @@
+.goal {
+  background-color: #FAFAFC;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.goal .goal_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .goal .goal_items {
+    flex-direction: column;
+  }
+}
+.goal .goal_item {
+  width: clamp(18.75rem, 2.5rem + 43.33vw, 35rem);
+}
+@media (max-width: 600px) {
+  .goal .goal_item {
+    max-width: 500px;
+    padding-bottom: 60px;
+  }
+}
+.goal p {
+  padding-bottom: 10px;
+  color: #333333;
+  font-weight: 400;
+}/*# sourceMappingURL=goal.css.map */

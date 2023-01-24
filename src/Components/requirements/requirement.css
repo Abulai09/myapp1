@@ -1,0 +1,50 @@
+.require {
+  padding-top: 99px;
+  padding-bottom: 90px;
+}
+.require .require_content {
+  text-align: center;
+}
+.require .require_head {
+  padding-bottom: 30px;
+}
+.require .require_items {
+  width: clamp(31.875rem, 11.832rem + 51.72vw, 50.625rem);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 620px) {
+  .require .require_items {
+    flex-direction: column;
+    width: 330px;
+  }
+}
+.require .block {
+  width: 250px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 21px 21px;
+}
+.require .block img {
+  width: 48px;
+  height: 48px;
+  padding-bottom: 9px;
+}
+.require .block span {
+  font-size: 13px;
+}
+.require .block p {
+  font-size: 13px;
+}
+
+.require_back {
+  background-image: url(./img/IMAGE2.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=requirement.css.map */

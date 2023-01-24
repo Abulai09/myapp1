@@ -1,0 +1,36 @@
+.rooms {
+  padding-top: 70px;
+  background-color: #FAFAFC;
+}
+.rooms .rooms_head {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.rooms .slider {
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: start;
+}
+.rooms .slider .info {
+  background-color: #fff;
+  padding: 15px;
+}
+.rooms .slider .info h3 {
+  font-size: 13px;
+}
+.rooms .slider .info span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #6F7278;
+}
+.rooms .slider .info p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 120% */
+  color: #45525B;
+}/*# sourceMappingURL=room.css.map */
